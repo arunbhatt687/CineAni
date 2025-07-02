@@ -30,11 +30,24 @@ android {
 
 dependencies {
 
-    implementation libs.appcompat
-    implementation libs.material
-    implementation libs.activity
-    implementation libs.constraintlayout
+// Core AndroidX libraries and UI components
+    implementation libs.bundles.android.ui
+
+    // Networking libraries (Retrofit - Gson removed)
+    implementation libs.bundles.networking
+
+    // Image loading library (Glide)
+    implementation libs.bundles.image.loading
+    // Annotation processor for Glide (required for Glide to work correctly)
+    annotationProcessor libs.glide.compiler
+
+    // Media playback libraries (ExoPlayer)
+    implementation libs.bundles.media.playback
+
+    // Local unit tests
     testImplementation libs.junit
-    androidTestImplementation libs.ext.junit
+
+    // Android instrumentation tests
+    androidTestImplementation libs.androidx.junit
     androidTestImplementation libs.espresso.core
 }
