@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace 'npl.com.arunb.cineani'
-    compileSdk 36
+    namespace = 'npl.com.arunb.cineani'
+    compileSdk = 36
 
     defaultConfig {
         applicationId "npl.com.arunb.cineani"
-        minSdk 24
-        targetSdk 36
+        minSdk = 24
+        targetSdk = 36
         versionCode 1
         versionName "1.0"
 
