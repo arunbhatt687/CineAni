@@ -1,6 +1,7 @@
 # CineAni - Your Ultimate Anime & Movie Streaming Hub
-
-![CineAni App Icon](https://googleusercontent.com/image_generation_content/0)
+<p align="center">
+  <img src="./CineAni.png" width="100" height="100" alt="CineAni"/>
+</p>
 
 CineAni is a comprehensive Android application designed to be your go-to platform for streaming both your favorite anime series and blockbuster movies. Built with Java, CineAni offers a seamless and immersive viewing experience right on your mobile device.
 
